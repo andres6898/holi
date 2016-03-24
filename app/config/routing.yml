@@ -1,3 +1,8 @@
+practica_bundle_gastos:
+    resource: "@PracticaBundleGastosBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 
 
 practica_bundle_inicio:
