@@ -1,0 +1,15 @@
+
+
+practica_bundle_inicio:
+    resource: "@PracticaBundleInicioBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+practica_bundle_usuario:
+    resource: "@PracticaBundleUsuarioBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

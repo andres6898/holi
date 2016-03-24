@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <link rel="stylesheet" href="{{asset('bundles/css/bootstrap.css')}}"
+    </head>
+    <body>
+        {% block body %}
+  {#    ul class="nav nav-pills">
+ <li role="presentation" class="active"><a href="#">Home</a></li>
+  <li role="presentation"><a href="#">Profile</a></li>
+  <li role="presentation"><a href="#">Messages</a></li>
+</ul>#}
+
+        {% endblock %}
+  
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>
